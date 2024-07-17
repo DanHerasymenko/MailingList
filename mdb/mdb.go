@@ -2,12 +2,9 @@ package mdb
 
 import (
 	"database/sql"
-	_ "database/sql"
 	_ "github.com/mattn/go-sqlite3"
 	"log"
-	_ "log"
 	"time"
-	_ "time"
 )
 
 type EmailEntry struct {
