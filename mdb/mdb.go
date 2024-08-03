@@ -2,7 +2,7 @@ package mdb
 
 import (
 	"database/sql"
-	_ "github.com/mattn/go-sqlite3"
+	"github.com/mattn/go-sqlite3"
 	"log"
 	"time"
 )
